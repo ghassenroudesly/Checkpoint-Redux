@@ -53,7 +53,7 @@ h1 {
   padding: 10px 25px;
   border: 0.5px solid white;
   border-radius: 5px;
-  background-color: #a3186e;
+  background-color: #a8a7a8;
   color: white;
   font-size: 17px;
   font-weight: bold;
@@ -61,7 +61,7 @@ h1 {
   width: auto;
 }
 .add-Btn:hover {
-  background-color: #7c7c7c;
+  background-color: #b8fae6;
 }
 .add-element {
   display: block;

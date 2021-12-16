@@ -1,4 +1,4 @@
-import { ADD_TODO, COMPETE_TODO, DELETE_TODO, EDIT_TODO } from "../constant/actionTypes"
+import { ADD_TODO, COMPETE_TODO, DELETE_TODO, EDIT_TODO } from "../constant/actionsTypes"
 
 const initState={
     todos:[
@@ -15,7 +15,7 @@ export const todoReducer=(state=initState,action)=>{
             ...state,todos:state.todos.map(el=>  el.id===action.payload.index? {...el,text:action.payload.editedText} : el )
         }
         case DELETE_TODO: return {
-            ...state,todos:state.todos.filter(el=> el.id!=action.payload)
+            ...state,todos:state.todos.filter(el=> el.id=action.payload)
         }
         case COMPETE_TODO: return {
 

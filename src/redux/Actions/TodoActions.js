@@ -1,5 +1,5 @@
 
-import { ADD_TODO, COMPETE_TODO, DELETE_TODO, EDIT_TODO } from "../constant/actionTypes";
+import { ADD_TODO, COMPETE_TODO, DELETE_TODO, EDIT_TODO } from "../constant/actionsTypes";
 
 export const addTodo = (newTask) => {
   return {

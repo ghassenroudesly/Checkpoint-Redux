@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Modal from "react-modal";
 import { useDispatch } from "react-redux";
-import { editTodo } from "../redux/Actions/todoActions";
+import { editTodo } from "../redux/Actions/TodoActions";
 const customStyles = {
   content: {
     top: "50%",
